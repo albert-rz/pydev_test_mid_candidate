@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"autoDocstring.docstringFormat": "sphinx",
+		"python.languageServer": "Pylance",
+		"python.linting.enabled": true,
+		"python.linting.pylintEnabled": true,
+		"python.linting.flake8Path": ".venv/bin/flake8",
+		"python.linting.pylintPath": ".venv/bin/pylint",
+		"python.testing.pytestPath": ".venv/bin/pytest",
+		"python.testing.pytestEnabled": true,
+		"python.testing.pytestArgs": ["tests"],
+		"terminal.integrated.profiles.linux": {
+			"bash": {
+			  "path": "/bin/zsh"
+			}
+		},
+		"jupyter.notebookFileRoot": "${workspaceFolder}"
+	}
+}

@@ -1,0 +1,34 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "ex_1",
+            "type": "python",
+            "request": "launch",
+            "module": "nvs_ex.ex_1",
+            "justMyCode": true,
+            "console": "internalConsole"
+        },
+        {
+            "name": "ex_4",
+            "type": "python",
+            "request": "launch",
+            "module": "flask",
+            "console": "internalConsole",
+            "env": {
+                "FLASK_APP": "nvs_ex_sol/ex_4.py",
+                "FLASK_DEBUG": "1"
+            },
+            "args": [
+                "run",
+                "--no-debugger",
+                "--no-reload"
+            ],
+            "jinja": true,
+            "justMyCode": true
+        }
+    ]
+}

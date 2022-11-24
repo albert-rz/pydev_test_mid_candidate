@@ -1,0 +1,19 @@
+openapi: '3.0.2'
+info:
+  title: API Title
+  version: '1.0'
+servers:
+  - url: http://localhost:5000
+paths:
+  /:
+    get:
+      responses:
+        '200':
+          description: OK
+  /backtest:
+    get:
+      responses:
+        '200':
+          description: OK
+        '400':
+          description: Error - Backtest already running

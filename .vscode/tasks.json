@@ -1,0 +1,25 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "sol",
+            "command": "bash",
+            "type": "shell",
+            "args": [
+                "-c",
+                "'python -m nvs_ex_sol.ex_1 && python -m nvs_ex_sol.ex_2 && python -m nvs_ex_sol.ex_3'"
+            ],
+            "problemMatcher": []
+        },
+        {
+            "label": "ex",
+            "command": "bash",
+            "type": "shell",
+            "args": [
+                "-c",
+                "'python -m nvs_ex.ex_1 && python -m nvs_ex.ex_2 && python -m nvs_ex.ex_3'"
+            ],
+            "problemMatcher": []
+        },
+    ]
+}
